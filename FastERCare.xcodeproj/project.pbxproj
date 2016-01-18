@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D186C1091C42AF22000139B2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D186C1081C42AF22000139B2 /* AVFoundation.framework */; };
+		D1B3D7381C3AFF3200D323D4 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B3D7361C3AFF3200D323D4 /* Realm.framework */; };
+		D1B3D7391C3AFF3200D323D4 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D1B3D7361C3AFF3200D323D4 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D1B3D73A1C3AFF3200D323D4 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B3D7371C3AFF3200D323D4 /* RealmSwift.framework */; };
+		D1B3D73B1C3AFF3200D323D4 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D1B3D7371C3AFF3200D323D4 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D1B3D78C1C3D28B700D323D4 /* FasterDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B3D78B1C3D28B700D323D4 /* FasterDB.swift */; };
+		D1B3D78E1C3D298A00D323D4 /* UserDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B3D78D1C3D298A00D323D4 /* UserDataController.swift */; };
+		D1C1C72E1C2DEB820047FC30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C1C72D1C2DEB820047FC30 /* AppDelegate.swift */; };
+		D1C1C7301C2DEB820047FC30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C1C72F1C2DEB820047FC30 /* ViewController.swift */; };
+		D1C1C7331C2DEB820047FC30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C1C7311C2DEB820047FC30 /* Main.storyboard */; };
+		D1C1C7361C2DEB820047FC30 /* FastERCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1C1C7341C2DEB820047FC30 /* FastERCare.xcdatamodeld */; };
+		D1C1C7381C2DEB820047FC30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C1C7371C2DEB820047FC30 /* Assets.xcassets */; };
+		D1C1C73B1C2DEB820047FC30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C1C7391C2DEB820047FC30 /* LaunchScreen.storyboard */; };
+		D1C1C7431C2F51F90047FC30 /* RegistrationPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C1C7421C2F51F90047FC30 /* RegistrationPageViewController.swift */; };
+		D1C1C7451C2F52620047FC30 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C1C7441C2F52620047FC30 /* LoginPageViewController.swift */; };
+		D1C1C7491C2FD48F0047FC30 /* DirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C1C7481C2FD48F0047FC30 /* DirectionsViewController.swift */; };
+		D1C1C74B1C2FD9010047FC30 /* RecordMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C1C74A1C2FD9010047FC30 /* RecordMessageViewController.swift */; };
+		D1C1C74D1C30BE220047FC30 /* Large Hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = D1C1C74C1C30BE220047FC30 /* Large Hospital.png */; };
+		D1C1C74F1C30F6880047FC30 /* recordStop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1C1C74E1C30F6880047FC30 /* recordStop.jpg */; };
+		D1C1C7511C30F6930047FC30 /* Microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D1C1C7501C30F6930047FC30 /* Microphone.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D1B3D73C1C3AFF3200D323D4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D1B3D73B1C3AFF3200D323D4 /* RealmSwift.framework in Embed Frameworks */,
+				D1B3D7391C3AFF3200D323D4 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D186C1081C42AF22000139B2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D1B3D7361C3AFF3200D323D4 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		D1B3D7371C3AFF3200D323D4 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		D1B3D78B1C3D28B700D323D4 /* FasterDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FasterDB.swift; sourceTree = "<group>"; };
+		D1B3D78D1C3D298A00D323D4 /* UserDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataController.swift; sourceTree = "<group>"; };
+		D1C1C72A1C2DEB820047FC30 /* FastERCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastERCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C1C72D1C2DEB820047FC30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1C1C72F1C2DEB820047FC30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1C1C7321C2DEB820047FC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1C1C7351C2DEB820047FC30 /* FastERCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FastERCare.xcdatamodel; sourceTree = "<group>"; };
+		D1C1C7371C2DEB820047FC30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1C1C73A1C2DEB820047FC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1C1C73C1C2DEB820047FC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1C1C7421C2F51F90047FC30 /* RegistrationPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationPageViewController.swift; sourceTree = "<group>"; };
+		D1C1C7441C2F52620047FC30 /* LoginPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		D1C1C7481C2FD48F0047FC30 /* DirectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsViewController.swift; sourceTree = "<group>"; };
+		D1C1C74A1C2FD9010047FC30 /* RecordMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordMessageViewController.swift; sourceTree = "<group>"; };
+		D1C1C74C1C30BE220047FC30 /* Large Hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Large Hospital.png"; sourceTree = "<group>"; };
+		D1C1C74E1C30F6880047FC30 /* recordStop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = recordStop.jpg; sourceTree = "<group>"; };
+		D1C1C7501C30F6930047FC30 /* Microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Microphone.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C1C7271C2DEB820047FC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D186C1091C42AF22000139B2 /* AVFoundation.framework in Frameworks */,
+				D1B3D7381C3AFF3200D323D4 /* Realm.framework in Frameworks */,
+				D1B3D73A1C3AFF3200D323D4 /* RealmSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1B3D78A1C3D285500D323D4 /* RealmModel */ = {
+			isa = PBXGroup;
+			children = (
+				D1B3D78B1C3D28B700D323D4 /* FasterDB.swift */,
+				D1B3D78D1C3D298A00D323D4 /* UserDataController.swift */,
+			);
+			name = RealmModel;
+			sourceTree = "<group>";
+		};
+		D1C1C7211C2DEB820047FC30 = {
+			isa = PBXGroup;
+			children = (
+				D186C1081C42AF22000139B2 /* AVFoundation.framework */,
+				D1B3D7361C3AFF3200D323D4 /* Realm.framework */,
+				D1B3D7371C3AFF3200D323D4 /* RealmSwift.framework */,
+				D1C1C72C1C2DEB820047FC30 /* FastERCare */,
+				D1C1C72B1C2DEB820047FC30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1C1C72B1C2DEB820047FC30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1C1C72A1C2DEB820047FC30 /* FastERCare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1C1C72C1C2DEB820047FC30 /* FastERCare */ = {
+			isa = PBXGroup;
+			children = (
+				D1B3D78A1C3D285500D323D4 /* RealmModel */,
+				D1C1C72D1C2DEB820047FC30 /* AppDelegate.swift */,
+				D1C1C72F1C2DEB820047FC30 /* ViewController.swift */,
+				D1C1C7421C2F51F90047FC30 /* RegistrationPageViewController.swift */,
+				D1C1C7441C2F52620047FC30 /* LoginPageViewController.swift */,
+				D1C1C74A1C2FD9010047FC30 /* RecordMessageViewController.swift */,
+				D1C1C7311C2DEB820047FC30 /* Main.storyboard */,
+				D1C1C7481C2FD48F0047FC30 /* DirectionsViewController.swift */,
+				D1C1C74C1C30BE220047FC30 /* Large Hospital.png */,
+				D1C1C74E1C30F6880047FC30 /* recordStop.jpg */,
+				D1C1C7501C30F6930047FC30 /* Microphone.png */,
+				D1C1C7371C2DEB820047FC30 /* Assets.xcassets */,
+				D1C1C7391C2DEB820047FC30 /* LaunchScreen.storyboard */,
+				D1C1C73C1C2DEB820047FC30 /* Info.plist */,
+				D1C1C7341C2DEB820047FC30 /* FastERCare.xcdatamodeld */,
+			);
+			path = FastERCare;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1C1C7291C2DEB820047FC30 /* FastERCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C1C73F1C2DEB820047FC30 /* Build configuration list for PBXNativeTarget "FastERCare" */;
+			buildPhases = (
+				D1C1C7261C2DEB820047FC30 /* Sources */,
+				D1C1C7271C2DEB820047FC30 /* Frameworks */,
+				D1C1C7281C2DEB820047FC30 /* Resources */,
+				D1B3D73C1C3AFF3200D323D4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastERCare;
+			productName = FastERCare;
+			productReference = D1C1C72A1C2DEB820047FC30 /* FastERCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1C1C7221C2DEB820047FC30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Steven Creekmore";
+				TargetAttributes = {
+					D1C1C7291C2DEB820047FC30 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = EKKQ484959;
+					};
+				};
+			};
+			buildConfigurationList = D1C1C7251C2DEB820047FC30 /* Build configuration list for PBXProject "FastERCare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1C1C7211C2DEB820047FC30;
+			productRefGroup = D1C1C72B1C2DEB820047FC30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1C1C7291C2DEB820047FC30 /* FastERCare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1C1C7281C2DEB820047FC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C1C74D1C30BE220047FC30 /* Large Hospital.png in Resources */,
+				D1C1C7511C30F6930047FC30 /* Microphone.png in Resources */,
+				D1C1C73B1C2DEB820047FC30 /* LaunchScreen.storyboard in Resources */,
+				D1C1C7381C2DEB820047FC30 /* Assets.xcassets in Resources */,
+				D1C1C74F1C30F6880047FC30 /* recordStop.jpg in Resources */,
+				D1C1C7331C2DEB820047FC30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1C1C7261C2DEB820047FC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C1C7301C2DEB820047FC30 /* ViewController.swift in Sources */,
+				D1C1C72E1C2DEB820047FC30 /* AppDelegate.swift in Sources */,
+				D1C1C7431C2F51F90047FC30 /* RegistrationPageViewController.swift in Sources */,
+				D1C1C74B1C2FD9010047FC30 /* RecordMessageViewController.swift in Sources */,
+				D1B3D78C1C3D28B700D323D4 /* FasterDB.swift in Sources */,
+				D1C1C7451C2F52620047FC30 /* LoginPageViewController.swift in Sources */,
+				D1C1C7491C2FD48F0047FC30 /* DirectionsViewController.swift in Sources */,
+				D1B3D78E1C3D298A00D323D4 /* UserDataController.swift in Sources */,
+				D1C1C7361C2DEB820047FC30 /* FastERCare.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1C1C7311C2DEB820047FC30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1C1C7321C2DEB820047FC30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1C1C7391C2DEB820047FC30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1C1C73A1C2DEB820047FC30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1C1C73D1C2DEB820047FC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1C1C73E1C2DEB820047FC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1C1C7401C2DEB820047FC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FastERCare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creekmore.FastERCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D1C1C7411C2DEB820047FC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FastERCare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creekmore.FastERCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1C1C7251C2DEB820047FC30 /* Build configuration list for PBXProject "FastERCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C1C73D1C2DEB820047FC30 /* Debug */,
+				D1C1C73E1C2DEB820047FC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1C1C73F1C2DEB820047FC30 /* Build configuration list for PBXNativeTarget "FastERCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C1C7401C2DEB820047FC30 /* Debug */,
+				D1C1C7411C2DEB820047FC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D1C1C7341C2DEB820047FC30 /* FastERCare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D1C1C7351C2DEB820047FC30 /* FastERCare.xcdatamodel */,
+			);
+			currentVersion = D1C1C7351C2DEB820047FC30 /* FastERCare.xcdatamodel */;
+			path = FastERCare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D1C1C7221C2DEB820047FC30 /* Project object */;
+}
